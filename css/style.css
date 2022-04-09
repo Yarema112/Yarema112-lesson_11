@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0px auto;
+	background-color: #F7F6F4;
+}
+.container {
+	margin-top: 100px;
+}
+.content { 
+	position: relative;
+	background-color: #F1DDC9;
+	margin: 0px auto;
+	max-width: 1110px;
+	color: red;
+	max-width: 1110px;
+	height: 505px;
+}
+.vector12 {
+	background: url('../imeg/Vector\ 12.svg') 0 0 / 700px no-repeat;
+	width: 1000px;
+	height: 264px;
+	position: absolute;
+	top: -30px;
+   left: 580px;
+	z-index: 1;
+}
+.vector13 {
+	background: url('../imeg/Vector\ 13.svg') 0 0 / 690px no-repeat;
+	width: 1000px;
+	height: 264px;
+	position: absolute;
+	top: 23px;
+   left: 588px;
+	z-index: 1;
+}
+.vector14 {
+	background: url('../imeg/Vector\ 14.svg') 0 0 / 680px no-repeat;
+	width: 1000px;
+	height: 264px;
+	position: absolute;
+	top: 67px;
+    left: 598px;
+	z-index: 1;
+}
+.content__imeg {
+	position: absolute;
+	top: 109px;
+   left: 6px;
+}
+.content__main-text {
+	position: absolute;
+	top: 56px;
+	left: 380px;
+	z-index:2;
+}
+.content__title {
+font-family: 'Taviraj', sans-serif;
+font-weight: 400;
+font-size: 60px;
+line-height: 80px;
+/* or 133% */
+letter-spacing: 0.02em;
+max-width: 420px;
+color: #333333;
+margin-bottom: 32px;
+}
+.content__title::after{
+	content: '';
+	background-color: #000;
+	width: 95px;
+	height: 1px;
+	display: block;
+	margin-top: 8px;
+}
+.content__text {
+font-family: 'Nunito', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.03em;
+color: #333333;
+max-width:  529px;
+margin-top: -8px;
+}
+.content__link {
+font-family: 'Taviraj';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.03em;
+color: #333333;
+margin-top: 8px;
+display: inline-block;
+}
+.content__link::after{
+	content: '';
+	background-color: #000;
+	width: 74px;
+	height: 1px;
+	display: block;
+}
+.buttom {
+	font-family: 'Taviraj', sans-serif;
+}
+.buttom__link_red {
+	display: inline-block;
+	width: 208px;
+	height: 62px;
+	padding: 20px 30px 14px 70px;
+	font-size: 20px;
+	color:#FFFFFF;
+	background: #D84727 url('../imeg/Shape.svg') 30px 20px no-repeat;
+	margin-top: 44px;
+}
+.buttom__link_red:hover{
+	background-color: #fa7254;
+}
+
+.buttom__link_simple {
+	background: url('../imeg/logo-cicil-white 1.svg') 40px 13px  no-repeat;
+	display: inline-block;
+	width: 140px;
+	height: 62px;
+	border: solid 2px #D84727;
+	position: relative;
+	top: -64px;
+    left: 226px;
+}
+.buttom-nav{
+	position: absolute;
+}
+.buttom__nav-left{
+	border: solid 2px #D84727;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	position: absolute;
+	bottom: -30px;
+   left: 931px;
+}
+.link-nav__left{
+	background: url('../imeg/Frame 2.svg') 12px 13px no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	/* position: relative;
+	z-index: 2; */
+}
+.buttom__nav-right{
+	background-color: #D84727;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	bottom: -30px;
+   left: 1006px;
+}
+.buttom__nav-right:hover{
+	background-color:#fa7254 ;
+}
+.link-nav__right{
+	background: url('../imeg/Vector 1.svg') 25px 17px no-repeat;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
